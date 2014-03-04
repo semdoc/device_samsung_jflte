@@ -65,7 +65,6 @@ void vendor_load_properties()
         property_set("ro.build.description", "jflteuc-user 4.4.2 KOT49H I337UCUFNB1 release-keys");
         property_set("telephony.lteOnGsmDevice", "1");
         property_set("ro.telephony.default_network", "9");
-        property_set("ro.loki_enabled", "1");
     } else if (strstr(bootloader, "R970C")) {
         /* jfltecri */
         property_set("ro.build.fingerprint", "samsung/jfltecri/jfltecri:4.2.2/JDQ39/R970CVVUAME4:user/release-keys");
@@ -134,7 +133,6 @@ void vendor_load_properties()
         property_set("ro.cdma.home.operator.numeric", "311480");
         property_set("telephony.lteOnCdmaDevice", "1");
         property_set("ro.telephony.default_network", "10");
-        property_set("ro.loki_enabled", "1");
     } else if (strstr(bootloader, "I9505G")) {
         /* jgedlte */
         property_set("ro.build.fingerprint", "samsung/jgedlteue/jgedlte:4.4.2/KOT49H.S001/131204:user/release-keys");
