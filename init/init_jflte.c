@@ -78,6 +78,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("telephony.lteOnCdmaDevice", "1");
         property_set("ro.telephony.default_network", "8");
         property_set("ro.gps.set_privacy", "1");
+        property_set("ro.cdma.home.operator.alpha", "Cricket");
+        property_set("ro.cdma.home.operator.numeric", "310090");
     } else if (strstr(bootloader, "R970X")) {
         /* jfltecsp */
         cdma_properties("0");
@@ -105,6 +107,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "jflteusc-user 4.2.2 JDQ39 R970VXUAMD9 release-keys");
         property_set("ro.product.model", "SCH-R970");
         property_set("ro.product.device", "jflteusc");
+        property_set("ro.cdma.home.operator.alpha", "U.S.Cellular");
+        property_set("ro.cdma.home.operator.numeric", "311580");
     } else if (strstr(bootloader, "I545")) {
         /* jfltevzw */
         cdma_properties("0");
