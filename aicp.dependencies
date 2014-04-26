@@ -1,8 +1,8 @@
 [
   {
-    "repository": "AICP/proprietary_vendor_samsung_jflte",
-    "target_path": "vendor/samsung/jflte",
-    "branch":      "kitkat"
+    "repository": "SlimRoms/proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "branch": "kk4.4"
   },
   {
     "repository": "CyanogenMod/android_device_qcom_common",
